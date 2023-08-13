@@ -37,6 +37,9 @@ Citizen.CreateThread(function()
                     -- Teleport the player to the defined location
                     SetEntityCoords(playerPed, teleportLocation.x, teleportLocation.y, teleportLocation.z, true, true, true, false)
                     teleportedPlayers[playerId] = true
+                    
+                    -- Send chat message to the player
+                    TriggerClientEvent('chatMessage', playerId, "^1NOTICE: ^7You have been teleported to the AFK location for being AFK.")
                 elseif not warnedPlayers[playerId] and GetGameTimer() - afkPlayers[playerId].timestamp >= (afkTime - warningTime) * 1000 then
                     -- Warn the player only once
                     warnedPlayers[playerId] = true
