@@ -1,6 +1,8 @@
 AFK Check Script for FiveM Servers
 
-Preview: https://clipchamp.com/watch/8CLfT6SX6FU
+Preview: https://clipchamp.com/watch/8CLfT6SX6FU 
+
+CFX post: https://forum.cfx.re/t/free-afk-teleport-system-standalone/5159456
 
 
 Enhance the management of your FiveM server with our AFK teleportation script! This powerful server-side Lua script helps you keep track of player activity and automatically teleport inactive players to ensure a dynamic and engaging gameplay experience. Resource is standalone!
@@ -15,3 +17,6 @@ Efficient and Lightweight: Built for performance, our script runs efficiently in
 Framework Agnostic: Compatible with various FiveM frameworks, including qbcore and ESX, our script seamlessly integrates into your existing server setup.
 
 Say goodbye to inactive players and maintain a dynamic gaming environment that keeps your community engaged!
+
+
+If you run into any issues or need to contact me my discord is 'api.lua'
