@@ -1,12 +1,12 @@
 local afkTime = 1800 -- Time in seconds (30 minutes) before a player is considered AFK
 local warningTime = 60 -- Time in seconds before a player is teleported
 local checkingInterval = 30 -- Time in seconds between AFK checks
+local teleportLocation = vector3(306.6802, -905.6727, 29.2937) -- Define the location where AFK players should be teleported
 
 local afkPlayers = {} -- Table to track AFK players and their last action time
 local warnedPlayers = {} -- Table to track players who have been warned
 local teleportedPlayers = {} -- Table to track players who have been teleported
 
-local teleportLocation = vector3(306.6802, -905.6727, 29.2937) -- Define the location where AFK players should be teleported
 
 local function CalculateDistanceSquared(x1, y1, z1, x2, y2, z2)
     local dx = x2 - x1
