@@ -9,8 +9,3 @@ author 'Opulent'
 version '1.0.0'
 
 server_script 'afk_check.lua'
-
-escrow_ignore {
-  'script/license.md', 
-  'server/afk_check.lua'
-}
